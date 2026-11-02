@@ -1,0 +1,41 @@
+body {
+    background: #eef4f6;
+    color: #123148;
+}
+
+.navbar span {
+    color: #16c7cb;
+}
+
+.navbar a,
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .active {
+    color: #16c7cb;
+}
+
+.card {
+    border: 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: 0 8px 25px #12314833 !important;
+}
+
+header {
+    background: linear-gradient(135deg, #e4f5f6, #fff);
+}
+
+table {
+    background: white;
+}

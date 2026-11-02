@@ -1,0 +1,49 @@
+body {
+    background: #f5f7f8;
+    color: #142c3b;
+}
+
+.navbar span {
+    color: #16c7cb;
+}
+
+.navbar a,
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    color: #16c7cb;
+}
+
+.hero {
+    min-height: 550px;
+    background: linear-gradient(90deg, #071d31dd, #071d3144), url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600") center/cover;
+}
+
+.card {
+    border: 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: .2s;
+}
+
+.night {
+    background: linear-gradient(90deg, #082437dd, #08243788), url("https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400") center/cover;
+}
+
+@media(max-width:600px) {
+    .hero {
+        min-height: 430px;
+    }
+}
